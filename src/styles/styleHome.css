@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    margin-bottom: 3rem;
+}
+.container-card {
+    display: flex;
+}
+
+/* CATEGORIAS */
+
+.category-item {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.category-item:hover{
+    opacity: 1;
+    background-color: #fff;
+    color: rgb(0, 128, 255);
+}
+
+.category-span {
+    font-size: 1.5rem;
+    width: 15rem;
+}
+
+/* FILTRO DE PRECIOS */
+.title-price{
+    margin-top: 3rem;
+    
+}
+.container__filter-price{
+    background-color: #fff;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.filter-price__span{
+    font-size: 1.5rem;
+}
+.input__filter-price{
+    width: 14rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: .1rem;
+}

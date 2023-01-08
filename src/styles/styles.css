@@ -1,0 +1,49 @@
+/* FOOTER */
+.footer {
+    height: 10rem;
+    background-color: rgba(39, 38, 38, 0.947);
+    opacity: 0.9;
+}
+.footer:hover {
+    opacity: 1;
+}
+
+.footer__icon,
+.footer__icon-instagram,
+.footer__icon-facebook {
+    border-radius: 50%;
+    width: 2rem;
+    position: absolute;
+    right: 49%;
+    margin-top: 7.2rem;
+    cursor: pointer;
+}
+.footer__icon-instagram {
+    right: 45%;
+}
+.footer__icon-facebook {
+    right: 53%;
+}
+.footer__text {
+    text-align: center;
+    color: #fff;
+    padding-top: 1.5rem;
+}
+/* LOGIN */
+
+.container-login {
+    text-align: center;
+    width: 30rem;
+    height: 36.7rem;
+    padding: 5rem;
+    margin: auto;
+}
+.example-user{
+    background-color: rgba(77, 171, 222, 0.627);
+    padding: .5rem;
+    margin: .3rem;
+    border-radius: 10px;
+}
+.example-user > p{
+    line-height: 1rem;
+}

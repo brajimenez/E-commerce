@@ -1,0 +1,67 @@
+.title{
+    display: flex;
+    margin: .6rem 0 2rem 1rem;
+}
+.title h4{
+    font-size: 1.2rem;
+}
+.circle{
+    width: .5rem;
+    height: .5rem;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: .5rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
+}
+
+.purchases__title{
+    color: rgba(26, 85, 195, 0.6);
+    margin-left: 4.2rem;
+    margin-bottom: 1.5rem;    
+}
+.purchases__title h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.container__purchases{
+    display: grid;
+    place-content: center; 
+    
+}
+.purchases__user-product{
+    margin-bottom: 2rem;
+    width: 40rem;
+    border: 1px solid rgba(128, 128, 128, 0.707); 
+    border-radius: 10px;
+    padding: 1rem;
+    width: 90vw;
+    background: rgba(255, 255, 255, 0.712);
+    
+}
+.purchases__info{
+    display: flex;
+    justify-content: space-between;
+}
+.purchases__date{
+    color:rgba(7, 51, 132, 0.6);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.purchases__info>h5{
+    width: 35rem;
+    text-align: left;
+}
+.purchases__info >p{
+    width: 30rem;
+    text-align: right;
+}
+.purchases__price>h5{
+    width: 10rem;
+    text-align: right;
+}
+.purchases__info:hover{
+    color:rgba(26, 161, 195, 0.6);
+    cursor: pointer;
+}
